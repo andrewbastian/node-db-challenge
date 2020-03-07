@@ -1,0 +1,25 @@
+{
+  "name": "db-challenge",
+  "version": "1.0.0",
+  "description": "Andrew's Sprint for node databases",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewbastian/node-db-challenge.git"
+  },
+  "author": "Andrew Bastian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewbastian/node-db-challenge/issues"
+  },
+  "homepage": "https://github.com/andrewbastian/node-db-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.20.11",
+    "nodemon": "^2.0.2",
+    "sqlite": "^3.0.3"
+  }
+}
