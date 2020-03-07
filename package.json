@@ -4,7 +4,7 @@
   "description": "Andrew's Sprint for node databases",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/andrewbastian/node-db-challenge/issues"
   },
-  "homepage": "https://github.com/andrewbastian/node-db-challenge#readme"
+  "homepage": "https://github.com/andrewbastian/node-db-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.20.11",
+    "nodemon": "^2.0.2",
+    "sqlite": "^3.0.3"
+  }
 }
